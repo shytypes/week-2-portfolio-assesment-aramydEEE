@@ -194,6 +194,9 @@ aside{
   position: fixed;
   left: 1200px;
   top: 550px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 5px gray;
   input{
     width: 200px;
     height: 40px;

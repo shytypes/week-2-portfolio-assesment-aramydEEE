@@ -6,8 +6,12 @@ function myFunction(e) {
     const first = document.querySelector('#fname').value
     const second = document.querySelector('#sname').value
     fullName =`${first} ${second}`
-    console.log(fullName)
+    
     document.getElementById("viewer").textContent = fullName;
+    setTimeout(() => {
+        const form = document.getElementById("fill");
+        form.style.display = "none";
+    }, 1000);
     
 }
 // const word = document.getElementById("word")
