@@ -8,3 +8,242 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+h1, h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+#projects{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+#myImage{
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  border-bottom: 5px solid purple;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-top: 5px solid purple;
+  
+}
+#name{
+  color: red;
+  text-shadow: 0 2px gray;
+}
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: purple;
+}
+li{
+  display: inline;
+  margin: 20px;
+}
+nav{
+  position: relative;
+  left: 690px;
+  top: -50px;
+  margin-right: 300px;
+ 
+  
+}
+#about{
+  border: 5px solid red;
+  box-sizing: border-box;
+  padding: 5px;
+}
+header{
+  margin-top: 20px;
+  width: 100%;
+  min-height: 50px;
+  border-bottom: 5px solid purple;
+  background-color: #efefef;
+}
+section{
+  background-color: purple;
+  color: white;
+  h1{
+    font-size: 3rem;
+    
+  }
+  h3{
+    font-size: 35px;
+  }
+  #expo{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    div{
+      background-color: #aba9a9;
+      border-radius: 20px;
+      box-shadow: 0 0 10px gray;
+      margin-left: 100px;
+      text-align: center;
+      border:2px solid white;
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+  #konga{
+    background-color: rgb(248, 118, 248);
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  #brief{
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+.mainFlex{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+#innerFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  #item{
+    width: 250px;
+    height: 350px;
+    background-color: #efefef;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 8px gray;
+    #name{
+      font-weight: 900;
+      font-size: 1.3rem;
+    }
+    p{
+      font-size: 1.3rem;
+    }
+    img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 2px solid purple;
+      margin-top: 10px;
+      
+    }
+  }
+}
+#item1{
+  border: 3px solid purple;
+  width: 400px;
+  height: 90vh;
+  border-radius: 20px;
+  margin-left: 50px;
+  text-align: center;
+  #main{
+    width: 400px;
+    transition: all 3s 2s ease;
+    
+  }
+  #main:hover{
+    width: 200px;
+    transform: translate(50px 50px);
+  }
+  #weekDisplay{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  p{
+    margin: 10px;
+  }
+  #buy{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+ 
+}
+footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  img{
+    width: 100px;
+  }
+}
+aside{
+  position: fixed;
+  left: 1200px;
+  top: 550px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 5px gray;
+  input{
+    width: 200px;
+    height: 40px;
+  }
+  button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    margin-left: 90px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  #sname{
+    margin-left: 16.5px;
+  }
+  p{
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(250, 52, 250);
+  
+  }
+  span{
+    color: black;
+  
+    font-style: italic;
+  }
+}
+/* .word{
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 5px purple;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+} */
+
+
+
+
