@@ -211,7 +211,35 @@ aside{
   #sname{
     margin-left: 16.5px;
   }
+  p{
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(250, 52, 250);
+  
+  }
+  span{
+    color: black;
+  
+    font-style: italic;
+  }
 }
+/* .word{
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 5px purple;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+} */
 
 
 
